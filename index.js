@@ -4,7 +4,7 @@ var express = require('express')
 var app = express()
 
 app.get('/', function (req,res) {
-    res.send('Hallo erneut Cloud9')
+    res.send('Hallo aus Github')
 })
 
 app.get('/qr/:qrstring', function (req, res) {
