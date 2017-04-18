@@ -4,7 +4,7 @@ var express = require('express')
 var app = express()
 
 app.get('/', function (req,res) {
-    res.send('Hallo 2')
+    res.send('Hallo 3')
 })
 
 app.get('/qr/:qrstring', function (req, res) {
